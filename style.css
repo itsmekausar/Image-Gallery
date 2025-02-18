@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e0e0e0;
+}
+
+h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+}
+
+#wrapper{
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    width: 1000px;
+    height: 100%;
+
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px 300px;
+    /* background-color: aquamarine; */
+}
+
+.box{
+    background-position: center;
+    border-radius: 10px; 
+    border: 1px solid black;
+    filter: grayscale(100%);
+}
+
+.b1{
+    background-image: url(image1.jpg);
+    background-size: cover;
+}
+.b2{
+    background-image: url(image2.jpeg);
+    background-size: cover;
+}
+.b3{
+    background-image: url(image3.jpeg);
+    background-size: cover;
+}
+.b4{
+    background-image: url(image4.jpeg);
+    background-size: cover;
+}
+.b5{
+    background-image: url(image5.jpeg);
+    background-size: cover;
+}
+.b6{
+    background-image: url(image6.jpeg);
+    background-size: cover;
+}
+.b7{
+    background-image: url(image7.jpeg);
+    background-size: cover;
+}
+.b8{
+    background-image: url(image8.jpeg);
+    background-size: cover;
+}
+.b9{
+    background-image: url(image9.jpeg);
+    background-size: cover;
+}
+.b10{
+    background-image: url(image10.jpg);
+    background-size: cover;
+}
+.b11{
+    background-image: url(image11.jpg);
+    background-size: cover;
+}
+.b12{
+    background-image: url(image12.jpg);
+    background-size: cover;
+}
+.box:hover{
+    transition: 2s;
+    transform: scale(1.03);
+    filter: grayscale(0);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
